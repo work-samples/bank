@@ -1,6 +1,6 @@
 # Bank
 
-> TODO: Add description**
+An example Elixir library showcases Test-Driven Development by Example.
 
 
 ## Installation
@@ -13,7 +13,7 @@
 
 ## License
 
-> TODO: Add license
+MIT
 
 ----
 Created:  2017-12-03Z

@@ -5,7 +5,13 @@ defmodule Bank.Mixfile do
   @version "0.1.0"
 
   @deps [
-    { :ex_doc,  ">= 0.0.0", only: [ :dev, :test ] }
+    { :ex_doc,  ">= 0.0.0", only: [ :dev, :test ] },
+    { :mix_test_watch, "~> 0.5.0" },
+  ]
+
+  @docs [
+    main: "Bank",
+    extras: ["README.md"]
   ]
 
   # ------------------------------------------------------------
@@ -17,6 +23,7 @@ defmodule Bank.Mixfile do
       version: @version,
       elixir:  ">= 1.5.2",
       deps:    @deps,
+      docs:    @docs,
       build_embedded:  in_production,
     ]
   end
